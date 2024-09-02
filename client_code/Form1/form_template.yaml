@@ -2,7 +2,7 @@ components:
 - components:
   - components:
     - layout_properties: {grid_position: 'LGMBZM,ZSSSUD'}
-      name: text_area_1
+      name: url
       properties: {}
       type: TextArea
     layout_properties: {grid_position: 'OCAUHA,IKQWNI'}
@@ -17,6 +17,15 @@ components:
       type: Button
     layout_properties: {grid_position: 'LXNJMF,HIBLJR'}
     name: outlined_card_2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'GMQFZN,CUJIER'}
+      name: transcript
+      properties: {}
+      type: RichText
+    layout_properties: {grid_position: 'RAWFDG,NENOSL'}
+    name: outlined_card_3
     properties: {role: outlined-card}
     type: ColumnPanel
   layout_properties: {slot: default}
