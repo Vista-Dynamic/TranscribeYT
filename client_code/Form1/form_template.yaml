@@ -1,5 +1,24 @@
 components:
-- components: []
+- components:
+  - components:
+    - layout_properties: {grid_position: 'LGMBZM,ZSSSUD'}
+      name: text_area_1
+      properties: {}
+      type: TextArea
+    layout_properties: {grid_position: 'OCAUHA,IKQWNI'}
+    name: outlined_card_1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+  - components:
+    - event_bindings: {click: button_1_click}
+      layout_properties: {grid_position: 'MMYOGH,OISIAD'}
+      name: button_1
+      properties: {text: Get Transcript}
+      type: Button
+    layout_properties: {grid_position: 'LXNJMF,HIBLJR'}
+    name: outlined_card_2
+    properties: {role: outlined-card}
+    type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
@@ -8,6 +27,10 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {text: TranscribeYT}
+  type: Label
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
